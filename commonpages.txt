@@ -538,7 +538,6 @@
 /Commands/place
 /Commands/playsound
 /Commands/querytarget
-/Commands/reload
 /Commands/replaceitem
 /Commands/save
 /Commands/say

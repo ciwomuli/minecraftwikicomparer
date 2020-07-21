@@ -50,8 +50,9 @@ def compareenandcn(item):
     return False
 
 
-# print(compareenandcn('/Item'))
-# print(compareenandcn('/Gameplay'))
+#print(compareenandcn('/Item'))
+#print(compareenandcn('/Gameplay'))
+#print(compareenandcn('/Commands/replaceitem'))
 fr = open('commonpages.txt', 'r')
 fw1 = open('pagesame.txt', 'w')
 fw2 = open('pagedifferent.txt', 'w')
@@ -65,4 +66,4 @@ for i in range(0, len(list_items)):
     fw2.write(list_items[i]+'\n')
 fr.close()
 fw1.close()
-fw2.close()
+fw2.close() 
